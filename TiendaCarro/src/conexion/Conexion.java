@@ -9,7 +9,7 @@ public class Conexion {
         try {
             String url = "jdbc:mysql://localhost:3306/tienda_carros1";
             String usuario = "root";
-            String contraseña = ""; // si no tienes contraseña
+            String contraseña = "";
 
             Connection conn = DriverManager.getConnection(url, usuario, contraseña);
             return conn;
